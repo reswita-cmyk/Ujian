@@ -63,7 +63,7 @@ func (cq *CircularQueue) Dequeue() int {
 
 }
 
-//func main() {
+func main() {
 	antreanLogin := NewCircularQueue(10)
 
 	antreanLogin.Enqueue(999)
