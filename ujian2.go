@@ -1,10 +1,10 @@
-//package main
+package main
 
 import (
 	"fmt"
 )
 
-//type Node struct {
+type Node struct {
 	Name string
 	Priotiry int
 	Next *Node
@@ -101,7 +101,7 @@ func (q *Queue) Display() {
 	}
 }
 
-func ujian2() {
+func main() {
 	indomaretQueue := Queue{}
 
 	indomaretQueue.Enqueue("Kevin", 1) 
